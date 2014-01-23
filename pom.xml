@@ -3,7 +3,7 @@
 
   <groupId>com.sonatype.blog</groupId>
   <artifactId>git-demo</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.2-SNAPSHOT</version>
   <packaging>jar</packaging>
 
   <name>git-demo</name>
@@ -39,7 +39,7 @@
   <distributionManagement>
     <repository>
       <id>releases</id>
-      <url>http://localhost:8081/nexus/nexus/content/repositories/releases/</url>
+      <url>http://localhost:8081/nexus/nexus/content/repositories/releases</url>
     </repository>
   </distributionManagement>
 </project>
